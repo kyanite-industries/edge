@@ -3,7 +3,15 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - boat
+  - ground
+  - target
+  - waypoint
+  - introCameras
+  - volume_manager
+  - benchmark_flythrough
+  - console_canvas
   layers:
   - Default
   - TransparentFX
@@ -13,6 +21,15 @@ TagManager:
   - UI
   - 
   - 
+  - 3DSkybox
+  - WaterFX
+  - Terrain
+  - Boat
+  - Player1
+  - Player2
+  - Player3
+  - Player4
+  - Otherthing
   - Ground
   - 
   - 
@@ -27,16 +44,7 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Blocker
   m_SortingLayers:
   - name: Default
     uniqueID: 0
