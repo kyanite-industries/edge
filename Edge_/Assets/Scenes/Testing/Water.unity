@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 8900000, guid: 6e8b646e70b4e410daa65a80eedd3182, type: 3}
   m_Sun: {fileID: 1191760973}
-  m_IndirectSpecularColor: {r: 0.4871838, g: 0.9889039, b: 1.9641062, a: 1}
+  m_IndirectSpecularColor: {r: 0.48751, g: 0.9893725, b: 1.9648192, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -234,7 +234,7 @@ PrefabInstance:
     - target: {fileID: 114943683913522278, guid: 2cac2e60f3f6f2447ad9b550450f60ed,
         type: 3}
       propertyPath: _waves.Array.size
-      value: 6
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 114943683913522278, guid: 2cac2e60f3f6f2447ad9b550450f60ed,
         type: 3}
@@ -604,7 +604,7 @@ PrefabInstance:
     - target: {fileID: 114943683913522278, guid: 2cac2e60f3f6f2447ad9b550450f60ed,
         type: 3}
       propertyPath: _waves.Array.data[1].amplitude
-      value: 0.38381416
+      value: 0.34543276
       objectReference: {fileID: 0}
     - target: {fileID: 114943683913522278, guid: 2cac2e60f3f6f2447ad9b550450f60ed,
         type: 3}
@@ -614,7 +614,7 @@ PrefabInstance:
     - target: {fileID: 114943683913522278, guid: 2cac2e60f3f6f2447ad9b550450f60ed,
         type: 3}
       propertyPath: _waves.Array.data[2].amplitude
-      value: 0.56254816
+      value: 0.4725404
       objectReference: {fileID: 0}
     - target: {fileID: 114943683913522278, guid: 2cac2e60f3f6f2447ad9b550450f60ed,
         type: 3}
@@ -624,7 +624,7 @@ PrefabInstance:
     - target: {fileID: 114943683913522278, guid: 2cac2e60f3f6f2447ad9b550450f60ed,
         type: 3}
       propertyPath: _waves.Array.data[3].amplitude
-      value: 0.5496996
+      value: 0.43975967
       objectReference: {fileID: 0}
     - target: {fileID: 114943683913522278, guid: 2cac2e60f3f6f2447ad9b550450f60ed,
         type: 3}
@@ -634,7 +634,7 @@ PrefabInstance:
     - target: {fileID: 114943683913522278, guid: 2cac2e60f3f6f2447ad9b550450f60ed,
         type: 3}
       propertyPath: _waves.Array.data[4].amplitude
-      value: 0.600147
+      value: 0.46297053
       objectReference: {fileID: 0}
     - target: {fileID: 114943683913522278, guid: 2cac2e60f3f6f2447ad9b550450f60ed,
         type: 3}
@@ -644,12 +644,52 @@ PrefabInstance:
     - target: {fileID: 114943683913522278, guid: 2cac2e60f3f6f2447ad9b550450f60ed,
         type: 3}
       propertyPath: _waves.Array.data[5].amplitude
-      value: 0.82138336
+      value: 0.6160375
       objectReference: {fileID: 0}
     - target: {fileID: 114943683913522278, guid: 2cac2e60f3f6f2447ad9b550450f60ed,
         type: 3}
       propertyPath: _waves.Array.data[5].direction
       value: -185.72478
+      objectReference: {fileID: 0}
+    - target: {fileID: 114943683913522278, guid: 2cac2e60f3f6f2447ad9b550450f60ed,
+        type: 3}
+      propertyPath: _waves.Array.data[6].amplitude
+      value: 0.53507847
+      objectReference: {fileID: 0}
+    - target: {fileID: 114943683913522278, guid: 2cac2e60f3f6f2447ad9b550450f60ed,
+        type: 3}
+      propertyPath: _waves.Array.data[6].direction
+      value: -95.83502
+      objectReference: {fileID: 0}
+    - target: {fileID: 114943683913522278, guid: 2cac2e60f3f6f2447ad9b550450f60ed,
+        type: 3}
+      propertyPath: _waves.Array.data[7].amplitude
+      value: 0.8421991
+      objectReference: {fileID: 0}
+    - target: {fileID: 114943683913522278, guid: 2cac2e60f3f6f2447ad9b550450f60ed,
+        type: 3}
+      propertyPath: _waves.Array.data[7].direction
+      value: -189.7634
+      objectReference: {fileID: 0}
+    - target: {fileID: 114943683913522278, guid: 2cac2e60f3f6f2447ad9b550450f60ed,
+        type: 3}
+      propertyPath: _waves.Array.data[8].amplitude
+      value: 0.72453356
+      objectReference: {fileID: 0}
+    - target: {fileID: 114943683913522278, guid: 2cac2e60f3f6f2447ad9b550450f60ed,
+        type: 3}
+      propertyPath: _waves.Array.data[8].direction
+      value: -144.55301
+      objectReference: {fileID: 0}
+    - target: {fileID: 114943683913522278, guid: 2cac2e60f3f6f2447ad9b550450f60ed,
+        type: 3}
+      propertyPath: _waves.Array.data[9].amplitude
+      value: 0.7456419
+      objectReference: {fileID: 0}
+    - target: {fileID: 114943683913522278, guid: 2cac2e60f3f6f2447ad9b550450f60ed,
+        type: 3}
+      propertyPath: _waves.Array.data[9].direction
+      value: -116.98241
       objectReference: {fileID: 0}
     - target: {fileID: 114943683913522278, guid: 2cac2e60f3f6f2447ad9b550450f60ed,
         type: 3}
@@ -659,27 +699,47 @@ PrefabInstance:
     - target: {fileID: 114943683913522278, guid: 2cac2e60f3f6f2447ad9b550450f60ed,
         type: 3}
       propertyPath: _waves.Array.data[1].wavelength
-      value: 5.0679083
+      value: 4.561117
       objectReference: {fileID: 0}
     - target: {fileID: 114943683913522278, guid: 2cac2e60f3f6f2447ad9b550450f60ed,
         type: 3}
       propertyPath: _waves.Array.data[2].wavelength
-      value: 4.8436303
+      value: 4.0686493
       objectReference: {fileID: 0}
     - target: {fileID: 114943683913522278, guid: 2cac2e60f3f6f2447ad9b550450f60ed,
         type: 3}
       propertyPath: _waves.Array.data[3].wavelength
-      value: 7.4353476
+      value: 5.948278
       objectReference: {fileID: 0}
     - target: {fileID: 114943683913522278, guid: 2cac2e60f3f6f2447ad9b550450f60ed,
         type: 3}
       propertyPath: _waves.Array.data[4].wavelength
-      value: 9.009473
+      value: 6.950164
       objectReference: {fileID: 0}
     - target: {fileID: 114943683913522278, guid: 2cac2e60f3f6f2447ad9b550450f60ed,
         type: 3}
       propertyPath: _waves.Array.data[5].wavelength
-      value: 14.354873
+      value: 10.766154
+      objectReference: {fileID: 0}
+    - target: {fileID: 114943683913522278, guid: 2cac2e60f3f6f2447ad9b550450f60ed,
+        type: 3}
+      propertyPath: _waves.Array.data[6].wavelength
+      value: 5.887917
+      objectReference: {fileID: 0}
+    - target: {fileID: 114943683913522278, guid: 2cac2e60f3f6f2447ad9b550450f60ed,
+        type: 3}
+      propertyPath: _waves.Array.data[7].wavelength
+      value: 7.900099
+      objectReference: {fileID: 0}
+    - target: {fileID: 114943683913522278, guid: 2cac2e60f3f6f2447ad9b550450f60ed,
+        type: 3}
+      propertyPath: _waves.Array.data[8].wavelength
+      value: 6.958877
+      objectReference: {fileID: 0}
+    - target: {fileID: 114943683913522278, guid: 2cac2e60f3f6f2447ad9b550450f60ed,
+        type: 3}
+      propertyPath: _waves.Array.data[9].wavelength
+      value: 13.755602
       objectReference: {fileID: 0}
     - target: {fileID: 114943683913522278, guid: 2cac2e60f3f6f2447ad9b550450f60ed,
         type: 3}
@@ -750,8 +810,8 @@ Terrain:
   m_TreeMaximumFullLODCount: 50
   m_DetailObjectDistance: 80
   m_DetailObjectDensity: 1
-  m_HeightmapPixelError: 5
-  m_SplatMapDistance: 1000
+  m_HeightmapPixelError: 26
+  m_SplatMapDistance: 225
   m_HeightmapMaximumLOD: 0
   m_ShadowCastingMode: 2
   m_DrawHeightmap: 1
@@ -897,16 +957,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 585092168}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f5304c1700b9854c95503017fdb5e71, type: 3}
+  m_Script: {fileID: 11500000, guid: c590c872dc90d8744bf3122a8faa3fbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  headTransform: {fileID: 1241136032}
-  cameraTransform: {fileID: 585092172}
-  bobFrequency: 5
-  bobHorizonaAmplitude: 0
-  bobVerticalAmplitude: 0.05
-  headBobSmoothing: 8.1
-  isMoving: 0
+  mouseSense: 100
+  isPaused: 0
+  playerBody: {fileID: 1209391805}
 --- !u!114 &585092174
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -916,12 +972,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 585092168}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 53f0b4d4a909238429e8d31d44d22555, type: 3}
+  m_Script: {fileID: 11500000, guid: b8218278d2ef231459c4aaf010ffca4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseSense: 100
-  isPaused: 0
-  playerBody: {fileID: 1209391805}
+  headTransform: {fileID: 1241136032}
+  cameraTransform: {fileID: 585092172}
+  bobFrequency: 5
+  bobHorizonaAmplitude: 0
+  bobVerticalAmplitude: 0.1
+  headBobSmoothing: 8.1
+  isMoving: 0
 --- !u!1 &655692284
 GameObject:
   m_ObjectHideFlags: 0
@@ -1054,6 +1114,43 @@ Texture2D:
     offset: 0
     size: 0
     path: 
+--- !u!84 &668665014
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: WaterDepthMap
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 5
+  m_Width: 1024
+  m_Height: 1024
+  m_AntiAliasing: 1
+  m_MipCount: -1
+  m_DepthStencilFormat: 94
+  m_ColorFormat: 0
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
+  m_ShadowSamplingMode: 2
 --- !u!1 &811408883
 GameObject:
   m_ObjectHideFlags: 0
@@ -1114,8 +1211,8 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 0.97317076, b: 0.9, a: 1}
-  m_Intensity: 2
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 2.5
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.802082
@@ -1172,14 +1269,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1191760972}
-  m_LocalRotation: {x: -0.15590872, y: 0.75002986, z: -0.6138923, w: -0.19048324}
+  m_LocalRotation: {x: -0.4615254, y: 0.5299764, z: -0.43378064, w: -0.5638739}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 78.6, y: 208.5, z: 0}
+  m_LocalEulerAnglesHint: {x: 78.6, y: 273.55, z: 0}
 --- !u!114 &1191760975
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1213,7 +1310,6 @@ GameObject:
   - component: {fileID: 1209391803}
   - component: {fileID: 1209391802}
   - component: {fileID: 1209391801}
-  - component: {fileID: 1209391800}
   - component: {fileID: 1209391806}
   m_Layer: 12
   m_Name: Player
@@ -1222,32 +1318,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1209391800
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1209391799}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 74b209f847d9e4a4da6fc774269233b2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  controller: {fileID: 1209391801}
-  walkingBobbingSpeed: 14
-  bobbingAmount: 0.05
-  isPaused: 0
-  speed: 5
-  gravity: -38.2
-  Jumpheight: 0.8
-  IsGroundCheck: {fileID: 811408884}
-  IsGroundCheckDistance: 0.4
-  groundMask:
-    serializedVersion: 2
-    m_Bits: 131072
-  ShakeRate: 1
-  SprintRate: 150
 --- !u!143 &1209391801
 CharacterController:
   m_ObjectHideFlags: 0
@@ -1338,7 +1408,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1209391799}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -266, y: 9.3, z: 867.9}
+  m_LocalPosition: {x: -266, y: 4.34, z: 867.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1356,123 +1426,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 1209391799}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b6edb8448c9b94f018953ca2a6fa5891, type: 3}
+  m_Script: {fileID: 11500000, guid: d76235a8677ce744e94d68bbb3b1a2bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  computeOverride: 0
-  _depthTex: {fileID: 1596948856}
-  bakedDepthTex: {fileID: 0}
-  _waves:
-  - amplitude: 0.30540264
-    direction: -157.6966
-    wavelength: 3.9317474
-    origin:
-      x: 0
-      y: 0
-    onmiDir: 0
-  - amplitude: 0.34543276
-    direction: -151.68127
-    wavelength: 4.561117
-    origin:
-      x: 0
-      y: 0
-    onmiDir: 0
-  - amplitude: 0.4725404
-    direction: -248.20753
-    wavelength: 4.0686493
-    origin:
-      x: 0
-      y: 0
-    onmiDir: 0
-  - amplitude: 0.43975967
-    direction: -157.03645
-    wavelength: 5.948278
-    origin:
-      x: 0
-      y: 0
-    onmiDir: 0
-  - amplitude: 0.46297053
-    direction: -109.31301
-    wavelength: 6.950164
-    origin:
-      x: 0
-      y: 0
-    onmiDir: 0
-  - amplitude: 0.6160375
-    direction: -185.72478
-    wavelength: 10.766154
-    origin:
-      x: 0
-      y: 0
-    onmiDir: 0
-  - amplitude: 0.53507847
-    direction: -95.83502
-    wavelength: 5.887917
-    origin:
-      x: 0
-      y: 0
-    onmiDir: 0
-  - amplitude: 0.8421991
-    direction: -189.7634
-    wavelength: 7.900099
-    origin:
-      x: 0
-      y: 0
-    onmiDir: 0
-  - amplitude: 0.72453356
-    direction: -144.55301
-    wavelength: 6.958877
-    origin:
-      x: 0
-      y: 0
-    onmiDir: 0
-  - amplitude: 0.7456419
-    direction: -116.98241
-    wavelength: 13.755602
-    origin:
-      x: 0
-      y: 0
-    onmiDir: 0
-  settingsData: {fileID: 11400000, guid: a4cacf74654e54b35b9eaea74fd20b4e, type: 2}
-  surfaceData: {fileID: 11400000, guid: 846f3dc3b5341447a86687211f741bc7, type: 2}
-  resources: {fileID: 11400000, guid: 40615c805d6e84ce7800418367985fe1, type: 2}
---- !u!84 &1240795436
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: WaterDepthMap
-  m_ImageContentsHash:
+  controller: {fileID: 1209391801}
+  walkingBobbingSpeed: 14
+  bobbingAmount: 0.05
+  isPaused: 0
+  speed: 0
+  gravity: -9.81
+  Jumpheight: 3
+  IsGroundCheck: {fileID: 811408884}
+  IsGroundCheckDistance: 0.4
+  groundMask:
     serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_IsAlphaChannelOptional: 0
-  serializedVersion: 5
-  m_Width: 1024
-  m_Height: 1024
-  m_AntiAliasing: 1
-  m_MipCount: -1
-  m_DepthStencilFormat: 94
-  m_ColorFormat: 0
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
-  m_ShadowSamplingMode: 2
+    m_Bits: 131072
+  ShakeRate: 1
+  SprintRate: 150
 --- !u!1 &1241136031
 GameObject:
   m_ObjectHideFlags: 0
@@ -1565,8 +1535,8 @@ Terrain:
   m_TreeMaximumFullLODCount: 50
   m_DetailObjectDistance: 80
   m_DetailObjectDensity: 1
-  m_HeightmapPixelError: 5
-  m_SplatMapDistance: 1000
+  m_HeightmapPixelError: 26
+  m_SplatMapDistance: 225
   m_HeightmapMaximumLOD: 0
   m_ShadowCastingMode: 2
   m_DrawHeightmap: 1
@@ -1643,8 +1613,8 @@ Terrain:
   m_TreeMaximumFullLODCount: 50
   m_DetailObjectDistance: 80
   m_DetailObjectDensity: 1
-  m_HeightmapPixelError: 5
-  m_SplatMapDistance: 1000
+  m_HeightmapPixelError: 26
+  m_SplatMapDistance: 225
   m_HeightmapMaximumLOD: 0
   m_ShadowCastingMode: 2
   m_DrawHeightmap: 1
@@ -1721,8 +1691,8 @@ Terrain:
   m_TreeMaximumFullLODCount: 50
   m_DetailObjectDistance: 80
   m_DetailObjectDensity: 1
-  m_HeightmapPixelError: 5
-  m_SplatMapDistance: 1000
+  m_HeightmapPixelError: 26
+  m_SplatMapDistance: 225
   m_HeightmapMaximumLOD: 0
   m_ShadowCastingMode: 2
   m_DrawHeightmap: 1
@@ -1830,43 +1800,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!84 &1596948856
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: WaterDepthMap
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_IsAlphaChannelOptional: 0
-  serializedVersion: 5
-  m_Width: 1024
-  m_Height: 1024
-  m_AntiAliasing: 1
-  m_MipCount: -1
-  m_DepthStencilFormat: 94
-  m_ColorFormat: 0
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
-  m_ShadowSamplingMode: 2
 --- !u!1 &1766767973
 GameObject:
   m_ObjectHideFlags: 0
